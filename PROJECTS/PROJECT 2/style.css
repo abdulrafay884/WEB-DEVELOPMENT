@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(32, 68, 53);
+    overflow: auto;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+     background-color: rgb(101, 117, 55);
+}
+
+ol{
+    display: flex;
+    padding: 38px;
+    gap: 109px;
+    color: darkslategray;
+    background-color: rgb(101, 117, 55);
+    font-size: x-large; 
+}
+li{
+    list-style: none;
+}
+.box1{
+    border: 5px solid black;
+    padding: 183px;
+    margin: 31px;
+    height: 50px;
+    width: 12px;
+    position: relative;
+    top: 284px;
+    left: 300px;
+    background-color: hotpink;
+}
+.box2{
+    border: 5px solid black;
+    padding: 183px;
+    margin: 31px;
+    height: 50px;
+    width: 12px;
+    position: relative;
+    top: 284px;
+    left: 300px;
+    background-color: darkslateblue;
+}
+
+.box{
+    border-radius: 50px;
+}
+
+.box3 {
+    border: 5px solid black;
+    padding: 183px;
+    margin: 31px;
+    height: 52px;
+    width: 686px;
+    position: absolute;
+    top: 612px;
+    left: 161px;
+    border-radius: 500px;
+    background-color: rgb(69, 109, 66);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: darkslategrey;
+}
+
+.box4{
+border: 2px solid black;
+    border-radius: 77px;
+    height: 70px;
+    width: 84px;
+    position: fixed;
+    top: 300px;
+    left: 1226px;
+}
+
+.box5{
+    border: 5px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 1125px;
+    left: 4px;
+    width: 1330px;
+    background-color: darkslategrey;
+    text-align: center;
+    font-size: x-large;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}

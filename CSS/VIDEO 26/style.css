@@ -1,0 +1,17 @@
+h1{
+    background-color: blue;
+    color: wheat;
+    text-decoration: underline solid burlywood;
+    font-size: large;
+}
+p{
+    height: 10vh;
+    width: auto;
+     border: 1vw solid tomato; 
+    white-space: nowrap ; 
+    /* overflow: clip; */
+    /* text-overflow: ellipsis; */
+    overflow-x: scroll;
+    overflow-y: auto;
+
+}

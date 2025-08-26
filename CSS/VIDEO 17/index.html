@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+<body>
+    <style>
+    /*Element Selcetor
+        div{
+            background-color: blue;
+        }*/
+
+    /*Class Selector
+        .red{
+        background-color: blue;
+    } */
+
+     /*Id Selector
+    #ty{
+        background-color: rgb(35, 20, 119);
+    }*/
+
+    /*Child Selector
+    div > p{
+        background-color: blueviolet;
+        color: rgb(75, 182, 42);
+    }*/
+
+    /* Descendent Selector 
+    div p {
+        background-color: blueviolet;
+    }*/
+    
+    /* Universal Selector 
+    *{
+        margin: 0;
+        padding: 0;
+    }*/
+
+    /* Pseudo Selector */
+    a:visited{
+        color: rgb(20, 97, 13);
+    }
+
+    a:link{
+        color: turquoise;
+    }
+
+    a:active{
+        background-color: black;    
+    }
+
+    a:hover{
+        background-color: blue;
+    }
+    p:first-child{
+        background-color: tomato;
+    }
+     </style>
+
+    <div class="red" id="ty">
+        hey i am div
+        <p>hi there para here</p>
+    </div>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.facebook6.com">Facebook</a>
+</body>
+</html>

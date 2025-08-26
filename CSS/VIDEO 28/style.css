@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    margin: 15vh;
+    padding: 15vw;
+    border: 9px solid black;
+    box-shadow: 60px 9px 28px gray ;
+    
+}
+.box1{
+    background-color: yellow;
+    position: relative;
+    position: absolute;
+    right: 23px;
+    
+    
+}
+.box2{
+    background-color: violet;
+    /* position: relative;
+    top: 28px;
+    left: 89px; */
+    background-color: violet;
+    position: sticky;
+    top: 2rem;
+    margin: 0vw;
+    padding: 3vh;
+
+}
+.box3{
+    background-color: blue;
+
+}
+.parent{
+    /* margin: 60px;
+    padding: 80px; */
+    border: 50px solid burlywood;
+    background-color: cadetblue;
+}

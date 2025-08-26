@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: wrap;
+}
+
+body{
+   background-color: rgb(248, 248, 248);
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav "
+    "sidebar main main"
+    "footer footer footer";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto auto auto;
+    padding: 0px;
+
+    
+    
+
+}
+
+.item{
+    border: 2px solid green;
+    height: 20px;
+    
+
+
+}
+.item1{
+    grid-area: nav;
+    height: 40px;
+
+    
+}
+.item2{
+    grid-area: sidebar;
+    height: 150vh;
+    
+}
+.item3{
+    grid-area: main;
+}
+.item4{
+    grid-area: footer;
+}
+
+ol{
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: darkslategrey;
+    
+}
+li{
+    list-style: none;
+    padding: 12px;
+}
+
+li:hover{
+    background-color: rgb(107, 107, 126);
+    
+}
+li:active{
+    background-color: rgb(105, 155, 72);
+}
+
+span{
+    border: 1px solid green;
+     border-radius: 20px;
+    display: flex;
+    height: 94.8px;}
+.pic1:hover{
+    font-size: medium;
+     padding:25px;
+     cursor: pointer;
+     background-color: rgb(161, 128, 35);
+     display: flex;
+     flex-direction: row;
+ }
+
+.button1{
+    width: 90px;
+    background-color: rgb(212, 171, 33);
+    cursor: pointer;
+    height: 52px;
+    padding: 11px;
+}
+
+.button1:hover{
+    background-color: rgb(219, 142, 87);
+}
+
+.button1:active{
+    background-color: chocolate;
+}
+
+.button2{
+    width: 90px;
+    background-color: rgb(212, 171, 33);
+    cursor: pointer;
+    height: 52px;
+    padding: 11px;
+}
+
+.button2:hover{
+    background-color: rgb(219, 142, 87);
+}
+
+.button2:active{
+    background-color: chocolate;
+}
+
+
+
+.pic2:hover{
+     font-size: xx-large;
+     padding:25px;
+     cursor: pointer;
+     background-color: rgb(128, 146, 47);
+     display: flex;
+     flex-direction: row;
+ }
+
+.button3{
+    width: 90px;
+    background-color: rgb(222, 238, 6);
+    cursor: pointer;
+    height: 52px;
+    padding: 11px;
+}
+
+.button3:hover{
+    background-color: rgb(149, 158, 27);
+}
+
+.button3:active{
+    background-color: rgb(156, 202, 28);
+}
+
+.button4{
+    width: 90px;
+    background-color: rgb(222, 238, 6);
+    cursor: pointer;
+    height: 52px;
+    padding: 11px;
+}
+
+.button4:hover{
+    background-color: rgb(149, 158, 27);
+}
+
+.button4:active{
+    background-color: rgb(156, 202, 28);
+}
+
+
+
+.pic3:hover{
+     font-size: xx-large;
+     padding:25px;
+     cursor: pointer;
+     background-color: rgb(177, 61, 61);
+     display: flex;
+     flex-direction: row;
+ }
+
+.button5{
+    width: 90px;
+    background-color: rgb(240, 38, 12);
+    cursor: pointer;
+    height: 52px;
+    padding: 11px;
+}
+
+.button5:hover{
+    background-color: rgb(189, 100, 89);
+}
+
+.button5:active{
+    background-color: rgb(163, 35, 35);
+}
+
+.button6{
+    width: 90px;
+    background-color: rgb(240, 38, 12);
+    cursor: pointer;
+    height: 52px;
+    padding: 11px;
+}
+
+.button6:hover{
+    background-color: rgb(189, 100, 89);
+}
+
+.button6:active{
+    background-color: rgb(163, 35, 35);
+}
+
+
+.pic4:hover{
+     font-size: xx-large;
+     padding:25px;
+     cursor: pointer;
+     background-color: rgb(43, 48, 42);
+     display: flex;
+     flex-direction: row;
+ }
+
+.button7{
+    width: 90px;
+    background-color: rgba(104, 32, 86, 0.623);
+    cursor: pointer;
+    height: 52px;
+    padding: 11px;
+}
+
+.button7:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.button7:active{
+    background-color: rgb(180, 134, 134);
+}
+
+.button8{
+    width: 90px;
+    background-color: rgba(104, 32, 86, 0.623);
+    cursor: pointer;
+    height: 52px;
+    padding: 11px;
+}
+
+.button8:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.button8:active{
+    background-color: rgb(180, 134, 134);
+}
+
+
+.pic5:hover{
+     font-size: xx-large;
+     padding:25px;
+     cursor: pointer;
+     background-color: rgb(165, 199, 17);
+     display: flex;
+     flex-direction: row;
+ }
+
+.button9{
+    width: 90px;
+    background-color: rgba(209, 212, 12, 0.623);
+    cursor: pointer;
+    height: 52px;
+    padding: 11px;
+}
+
+.button9:hover{
+    background-color: rgb(104, 119, 50);
+}
+
+.button9:active{
+    background-color: rgb(231, 235, 4);
+}
+
+.button10{
+    width: 90px;
+    background-color: rgba(209, 212, 12, 0.623);
+    cursor: pointer;
+    height: 52px;
+    padding: 11px;
+}
+
+.button10:hover{
+    background-color: rgb(104, 119, 50);
+}
+
+.button10:active{
+    background-color: rgb(231, 235, 4);
+}
+
+button{
+    border: none;
+    border-radius: 20vh;
+    margin: 2px;
+    color: rgb(0, 0, 0);
+    box-shadow: 12px 12px 13px gray;
+}
+
+.item3{
+    height: 150vh;
+    /* text-align: center; */
+}
+
+p{
+    font-family: sans-serif;
+    font-style: italic;
+    
+    
+}
+
+#pp4{
+    text-align: center;
+}  
+
+/* -------- Responsive Layout -------- */
+@media (max-width: 2000px) {
+    .container {
+        grid-template-areas: 
+            "nav"
+            "sidebar"
+            "main"
+            "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .item1,
+    .item2,
+    .item3,
+    .item4 {
+        width: 100%;
+        height: auto;
+    }
+
+    ol {
+        justify-content: center;
+    }
+
+
+    button{
+       height: auto;
+       width: auto;
+       overflow-y: auto;
+    
+    }
+
+
+
+    #pp4 {
+        font-size: 14px;
+        padding: 0px;
+        color: blue;
+    }
+
+
+}
+
+

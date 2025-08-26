@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --medical-blue: #E6F7FF;
+    --mint-green: #D1F2EB;
+    --light-grey: #F8F9FA;
+    --teal-green: #2A9D8F;
+    --deep-blue: #264653;
+    --aqua-light: #E0F7FA;
+
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar {
+    background-color: var(--medical-blue);
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    font-size: 12px;
+    margin: 2px;
+    padding: 5px;
+    color: var(--teal-green);
+    cursor: pointer;
+}
+
+.logo a {
+    text-decoration: none;
+    color: var(--teal-green);
+
+}
+
+.list ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: 12px;
+    color: var(--teal-green);
+}
+
+.list ul li {
+    list-style: none;
+    margin-right: 8px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 1s cubic-bezier(0.35, 1, 0, 1.32) 0.1s;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: var(--teal-green);
+}
+
+.list ul li:hover {
+    background-color: var(--teal-green);
+    color: var(--medical-blue);
+}
+
+.list ul li:last-child {
+    margin-right: 0;
+}
+
+.pic {
+    overflow-x: hidden;
+}
+
+.bgpic {
+    height: 90vh;
+    width: 99.9vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    display: block;
+}
+
+.bgline {
+    background-color: rgb(110 108 110);
+    height: 2vh;
+    width: 99.9vw;
+}
+
+.cards {
+    background-color: var(--teal-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gap {
+    background-color: rgb(110 108 110);
+    height: 60vh;
+    width: 5px;
+}
+
+.verticalline {
+    background-color: rgb(110 108 110);
+    width: 99.9vw;
+    height: 2vh;
+}
+
+.doctor {
+    color: var(--teal-green);
+    background-color: var(--medical-blue);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bolder;
+    font-style: italic;
+    border-radius: 15px;
+    border: 3px solid var(--deep-blue);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 105vh;
+    width: 98.9vw;
+    border: none;
+}
+
+.box {
+    border: 3px solid var(--medical-blue);
+    height: 33vh;
+    width: 50vh;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.bline {
+    background-color: rgb(110 108 110);
+    height: 2vh;
+    width: 98.9vw;
+}
+
+.box img {
+    width: 49.2vh;
+    height: 32.2vh;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 105vh;
+    width: 98.9vw;
+    border: none;
+    background-color: var(--teal-green);
+}
+
+.customer {
+    border: 3px solid var(--medical-blue);
+    height: 50vh;
+    width: 50vh;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.checked {
+    color: orange;
+}
+
+.name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    color: var(--medical-blue);
+}
+
+.opinion {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: var(--deep-blue);
+}
+
+.copyright {
+    color: var(--teal-green);
+    background-color: var(--medical-blue);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bolder;
+    font-style: italic;
+    border-radius: 15px;
+    border: 3px solid var(--deep-blue);
+    text-align: center;
+}
+
+.heading {
+    background-color: var(--teal-green);
+    color: var(--medical-blue);
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    margin: 15px;
+    padding: 15px;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.department {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100vh;
+    width: 98.9vw;
+    border: none;
+    background-color: var(--deep-blue);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.depart-room {
+    border: 3px solid var(--teal-green);
+    height: 50vh;
+    width: 50vh;
+    border-radius: 15px;
+}
+
+.depart-room img {
+    height: 49.2vh;
+    width: 49.2vh;
+    border-radius: 13px;
+}
+
+
+.details-depart-room {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: var(--medical-blue);
+}
+
+.detail-lab {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--deep-blue);
+    text-align: center;
+}
+
+
+.test {
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+    color: var(--teal-green);
+    font-weight: bolder;
+    text-decoration: underline;
+    border: none;
+}
+
+
+.sub-test {
+    margin: 5px;
+    padding: 5px;
+    font-weight: 800;
+    color: var(--teal-green);
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.heading1 {
+    margin: 15px;
+    padding: 15px;
+}
+
+.overview {
+    font-size: 21px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: start;
+    margin: 5px;
+    padding: 5px;
+}
+
+mark {
+    background-color: var(--medical-blue);
+}
+
+.sale {
+    background-color: var(--deep-blue);
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 50px;
+}
+
+.moving-pic {
+    height: 80vh;
+    width: 98.9vw;
+    background-color: var(--teal-green);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.moving-pic {
+    animation: pic-animation 20s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
+}
+
+
+
+@keyframes pic-animation {
+    0% {
+        background-image: url("https://www.shutterstock.com/image-vector/medicine-vector-trendy-banner-design-260nw-644484853.jpg");
+    }
+
+    10% {
+        background-image: url("https://www.shutterstock.com/image-photo/doctor-using-computer-tablet-search-260nw-1698223768.jpg");
+    }
+
+    20% {
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/306/872/small_2x/banner-with-medical-pills-pharmacy-capsules-for-health-realistic-3d-illustration-vector.jpg");
+    }
+
+    30% {
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/020/459/721/small_2x/healthcare-and-technology-concept-with-icons-minimal-background-for-pharmaceutical-industry-health-care-business-medicine-medical-research-and-science-illustration-vector.jpg");
+    }
+
+    40% {
+        background-image: url("https://img.pikbest.com/wp/202413/medicine-industry-fruits-medicines-health-products-medical-web-banner_9105596.jpg!bw700");
+    }
+
+    50% {
+        background-image: url("Healthcare\ with\ Compassion\ and\ Care.png");
+    }
+
+    60% {
+        background-image: url("https://www.shutterstock.com/image-vector/medicine-vector-trendy-banner-design-260nw-644484853.jpg");
+    }
+
+    70% {
+        background-image: url("https://www.shutterstock.com/image-photo/doctor-using-computer-tablet-search-260nw-1698223768.jpg");
+    }
+
+    80% {
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/306/872/small_2x/banner-with-medical-pills-pharmacy-capsules-for-health-realistic-3d-illustration-vector.jpg");
+    }
+
+    90% {
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/020/459/721/small_2x/healthcare-and-technology-concept-with-icons-minimal-background-for-pharmaceutical-industry-health-care-business-medicine-medical-research-and-science-illustration-vector.jpg");
+    }
+
+    100% {
+        background-image: url("https://img.pikbest.com/wp/202413/medicine-industry-fruits-medicines-health-products-medical-web-banner_9105596.jpg!bw700");
+    }
+}
+
+.medicine {
+    height: 500vh;
+    width: 98.9vw;
+    background-color: var(--deep-blue);
+}
+
+.medicine-category {
+    height: 55vh;
+    background-color: var(--teal-green);
+}
+
+.real-prce {
+    color: var(--deep-blue);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+.fake-price {
+    color: var(--light-grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.input-name {
+    text-align: center;
+    color: var(--teal-green);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+#btn {
+    color: var(--deep-blue);
+    background-color: var(--teal-green);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    height: 25px;
+    width: 60px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}

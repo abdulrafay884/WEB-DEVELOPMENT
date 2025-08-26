@@ -1,0 +1,23 @@
+.box{
+    height: 90px;
+    width: 90px;
+    border: 5px solid cadetblue;
+    margin: 15px;
+    padding: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box:hover{
+    opacity: 0.5;
+    color: beige;
+}
+
+.box:active{
+    border-radius: 15px;
+}

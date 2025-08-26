@@ -1,0 +1,10 @@
+Student ID: 123
+Name: Sonu
+Age: 16
+Class: 10
+Address: Gokhuldam Society
+Father's Name: Bhide
+Mother's Name: Madhavi
+Parent Email: bhide469@gmial.com
+Parent Profession: Tuition Teacher
+Contact Number: 03215498564

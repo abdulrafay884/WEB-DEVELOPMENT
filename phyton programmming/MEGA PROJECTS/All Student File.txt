@@ -1,0 +1,64 @@
+The Biodata Of Parents
+
+The Name Of Father Is: Jethalal
+The Name Of Mother Is: Daya
+The Email Of Parent Is: jetha4456@gmail.com
+The Pofession Of Parent Is: Electronics Shop
+The Number Of Parent Is: 03216545154
+The Address Of Student Is: Gokhuldam Society
+
+The Biodata Of Student: 
+
+The Id Of Student Is: 185
+The Name Of The Student Is: Tapu
+The Age Of Student Is: 16
+The Class Of Student Is: 10
+
+The Biodata Of Parents
+
+The Name Of Father Is: Bhide
+The Name Of Mother Is: Madhavi
+The Email Of Parent Is: bhide469@gmial.com
+The Pofession Of Parent Is: Tuition Teacher
+The Number Of Parent Is: 03215498564
+The Address Of Student Is: Gokhuldam Society
+
+The Biodata Of Student
+ 
+The Id Of Student Is: 123
+The Name Of The Student Is: Sonu
+The Age Of Student Is: 16
+The Class Of Student Is: 10
+
+The Biodata Of Parents
+
+The Name Of Father Is: Sodhi
+The Name Of Mother Is: Roshan
+The Email Of Parent Is: sodhi34@gmail.com
+The Pofession Of Parent Is: Mechanic
+The Number Of Parent Is: 032116545216
+The Address Of Student Is: Gokhuldam Society
+
+The Biodata Of Student
+ 
+The Id Of Student Is: 162
+The Name Of The Student Is: Gogi
+The Age Of Student Is: 14
+The Class Of Student Is: 9
+
+
+The Biodata Of Parents
+
+The Name Of Father Is: Arif Khan
+The Name Of Mother Is: Asma Arif
+The Email Of Parent Is: arifrafay551@gmail.com
+The Pofession Of Parent Is: Bank
+The Number Of Parent Is: 032168441
+The Address Of Student Is: Karachi
+
+The Biodata Of Student
+ 
+The Id Of Student Is: 140
+The Name Of The Student Is: Abdul Rafay
+The Age Of Student Is: 17
+The Class Of Student Is: 11

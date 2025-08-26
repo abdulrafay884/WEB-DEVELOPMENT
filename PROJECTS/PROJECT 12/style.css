@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5D2E46;
+}
+
+.container{
+    background-color: rgb(23, 53, 80);
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    top: 90px;
+
+}
+
+.box{
+    height: 100px;
+    width:  110px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+

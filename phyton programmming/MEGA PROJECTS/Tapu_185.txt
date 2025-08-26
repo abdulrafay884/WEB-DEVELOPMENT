@@ -1,0 +1,10 @@
+Student ID: 185
+Name: Tapu
+Age: 16
+Class: 10
+Address: Gokhuldam Society
+Father's Name: Jethalal
+Mother's Name: Daya
+Parent Email: jetha4456@gmail.com
+Parent Profession: Electronics Shop
+Contact Number: 03216545154

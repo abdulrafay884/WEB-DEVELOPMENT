@@ -1,0 +1,29 @@
+h1{
+    color: blue;
+    border: 20px solid black;
+    margin: auto;
+    padding: 45px;
+    box-sizing: border-box;
+    background-color: brown;
+    font-size: 4em;
+    a:activate{
+        color: rgb(92, 174, 177);
+    }
+    a:visited{
+        color: aqua;
+    }
+    a:hover{
+        color: yellow;
+    }
+}
+
+div{
+    background-color: burlywood;
+    border: 3vb solid blueviolet;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-decoration: dotted solid hotpink;
+    font-size: 5vb; 
+}

@@ -1,0 +1,11 @@
+  with open(f"MEGA PROJECTS/{self.student_Name}_{self.student_id}.txt", "w") as personal_file:
+            personal_file.write(f"Student ID: {self.student_id}\n")
+            personal_file.write(f"Name: {self.student_Name}\n")
+            personal_file.write(f"Age: {self.student_age}\n")
+            personal_file.write(f"Class: {self.student_class}\n")
+            personal_file.write(f"Address: {self.Parent_Address}\n")
+            personal_file.write(f"Father's Name: {self.Father_Name}\n")
+            personal_file.write(f"Mother's Name: {self.Mother_Name}\n")
+            personal_file.write(f"Parent Email: {self.Parent_email}\n")
+            personal_file.write(f"Parent Profession: {self.Parent_Profession}\n")
+            personal_file.write(f"Contact Number: {self.Parent_Number}\n")    

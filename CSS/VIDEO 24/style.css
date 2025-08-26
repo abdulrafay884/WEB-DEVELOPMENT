@@ -1,0 +1,15 @@
+h1{
+    border: 5px solid cornflowerblue;
+    color: blue;
+    margin: auto;
+    padding: 40px;
+    box-shadow: -2px 4px 15555px  #491111;
+    background-color: darkcyan;
+}
+p{
+    color: rgb(17, 119, 160);
+    margin: auto;
+    padding: 40px;
+    text-shadow: 54px 5px 15px  #162d4d;
+    background-color: darkslategrey;
+}

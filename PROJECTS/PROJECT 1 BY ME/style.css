@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: rgb(148 179 150);
+    height: 30em;
+    width: 2vh;
+    box-sizing: border-box;
+    margin: 295px;
+    padding: 162px;
+    position: absolute;
+    right: 33vh;
+    top: -213px;
+    border-radius: 15px;
+}
+img{
+    height: 236px;
+    width: 306px;
+    position: relative;
+    top: -156px;
+    right: 152px;
+    border-radius: 18px;
+}
+
+a{
+    color: seagreen;
+    background-color: rgb(148 179 145);
+    font-size: larger;
+    height: 20px;
+    position: absolute;
+    top: 260px;
+    right: 259px;
+    border-radius: 9px;
+    border: 2px solid seagreen;
+}
+
+.yu{
+    color: seagreen;
+    background-color: rgb(148 179 145);
+    font-size: larger;
+    height: 20px;
+    position: absolute;
+    top: 260px;
+    right: 198px;
+    border-radius: 9px;
+    border: 2px solid seagreen;
+}
+
+h1{
+    position: absolute;
+    top: 295px;
+    right: 57px;
+    font-size: x-large;
+    color: seagreen;
+    text-decoration: underline;
+}
+
+p{
+    position: absolute;
+    top: 317px;
+    right: 36px;
+    color: darkolivegreen;
+}
+.button{
+    position: absolute;
+    top: 550px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sma{
+            background-color: rgb(191, 206, 192);
+            cursor: pointer;
+            margin: 15px;
+            padding: 15px;
+            border: 5px solid rgb(250, 234, 234) ;
+        }
+
+        .container{
+            background-color: rgb(225, 235, 231);
+            margin: 15px;
+            padding: 15px;
+        }
+
+        .box{
+            background-color: rgb(219, 219, 219);
+            margin: 15px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="sma">
+                hi uncle my parents are there!!
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector(".sma").addEventListener("click" , (e)=>{
+            e.stopPropagation()
+            alert("hey kid you touched me my parents will beat you")
+        })
+
+        
+        document.querySelector(".box").addEventListener("click" , (e)=>{
+            e.stopPropagation()
+            alert("o kid why you touch my child")
+        })
+
+        
+        document.querySelector(".container").addEventListener("click" , (e)=>{
+            e.stopPropagation()
+            alert("go away you pooor =>")
+        })
+
+
+         function getRandomColor() {
+            let val1 = Math.ceil(0 + Math.random() * 255);
+            let val2 = Math.ceil(0 + Math.random() * 255);
+            let val3 = Math.ceil(0 + Math.random() * 255);
+            return `rgb(${val1}, ${val2}, ${val3})`
+        }
+        let a = setInterval(() => {
+            document.querySelector(".sma").style.background = getRandomColor();
+        }, 1000);
+
+        console.log(a)
+
+        // let a = setTimeout(() => {
+        //     document.querySelector(".sma").style.background = getRandomColor();
+        // }, 5000);
+
+        console.log(a)
+
+
+    </script>
+</body>
+</html>

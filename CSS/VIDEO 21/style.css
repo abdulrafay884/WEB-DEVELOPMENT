@@ -1,0 +1,26 @@
+
+/* the specificity selector is 1 */
+h1{
+    color: aqua;
+}
+/* the specificity of this selector is 10  */
+
+.blue{
+    color: blue;
+}
+/* the specificity of this selector is 10  */
+.green{
+    color: green;
+}
+/* the specificity of this selector is 10  */
+.red{
+    color: red;
+}
+/* the specificity of this selector is 10  */
+[data-x="a"] {
+    background-color: black;
+}
+/* the specificity of this selector is 10 but after adding h1 it becomes 11 as the specificity of h1 is 1 */
+h1.blue{
+    color: rgb(155, 197, 38);
+}

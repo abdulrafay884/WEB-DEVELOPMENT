@@ -1,0 +1,10 @@
+Student ID: 140
+Name: Abdul Rafay
+Age: 17
+Class: 11
+Address: Karachi
+Father's Name: Arif Khan
+Mother's Name: Asma Arif
+Parent Email: arifrafay551@gmail.com
+Parent Profession: Bank
+Contact Number: 032168441

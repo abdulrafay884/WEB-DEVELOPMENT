@@ -1,0 +1,15 @@
+div {
+    background-color: tomato;
+    font-style: italic;
+    text-decoration: underline solid yellowgreen;
+    color: blueviolet;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+p {
+    background-color: rgba(46, 146, 68, 0.473);
+    color: violet;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .container{
+        background-color: burlywood;
+        height: 500px;
+        width: 500px;
+    }
+    .item{
+        background-color: blueviolet;
+        height: 30px;
+        width: 50vw;
+        /* transition-property: transform ;
+        transition-duration:  3s;
+        transition-timing-function: cubic-bezier(0, 0.4, 0.21, 0.49) ;
+        transition-delay: 1s ;    */
+
+
+        /* {OR WE CAN DO THIS} */
+
+
+        transition: transform 3s ease-in 0.5s;
+    }
+    .translate{
+        transform: translateX(20vh) translateY(30vh) scale(0.3);
+    }
+    
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="item translate"></div>
+    </div>
+</body>
+</html>

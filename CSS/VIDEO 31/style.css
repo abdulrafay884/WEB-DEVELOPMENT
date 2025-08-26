@@ -1,0 +1,23 @@
+p{
+    background-color: aquamarine;
+}
+@media only screen and (max-width:1000px){
+    
+    p {color: rgb(154, 173, 42);
+        background-color: brown;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+}
+
+.boxes{
+    display: flex;
+}
+.box{
+    background-color: black;
+    width: 55px;
+    height: 55px;
+    margin: 34px;
+    padding: 58px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: blue;
+            height: 18vw;
+            width: 12vw;
+        }
+        .it{
+            color: cadetblue;
+            background-color: cornflowerblue;
+            height: 50px;
+            width: 100px;
+            /* animation: rafay;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            animation-direction: alternate-reverse;
+            animation-play-state: running; */
+
+        /* {OR WE CAN DO THIS} */
+
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+ 
+        animation: rafay 2s ease-in-out infinite alternate-reverse
+                  
+        }
+
+
+        @keyframes rafay {
+            from{
+               transform: translateX(2px);
+               background-color: rgb(153, 126, 92);
+            }
+            to{
+                transform: translateY(450px);
+                background-color: rgb(17, 247, 255);
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="it">ZZzzzzzz</div>
+
+    </div>
+</body>
+</html>

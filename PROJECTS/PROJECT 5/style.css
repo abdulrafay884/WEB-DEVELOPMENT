@@ -1,0 +1,38 @@
+.container {
+    background-color: rgb(169, 207, 33);
+    height: 900px;
+    width: 100%;
+}
+
+.box {
+    background-color: aqua;
+    height: 90px;
+    width: 90px;
+    border-radius: 70px;
+     /* animation: raf; 
+    animation: rafay;
+    animation-timing-function: cubic-bezier(0.55, 0.06, 0.27, 1.05);
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;  */
+    
+    
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+    animation: rafay 3s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite alternate-reverse ,
+               raf   3s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite alternate-reverse;
+}
+
+@keyframes rafay {
+    from {}
+
+    to {
+        transform: translateY(300px);
+    }
+}
+
+@keyframes raf {
+    100%{
+        transform: translateX(300px);
+    }
+}

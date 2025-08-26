@@ -1,0 +1,10 @@
+Student ID: 162
+Name: Gogi
+Age: 14
+Class: 9
+Address: Gokhuldam Society
+Father's Name: Sodhi
+Mother's Name: Roshan
+Parent Email: sodhi34@gmail.com
+Parent Profession: Mechanic
+Contact Number: 032116545216
